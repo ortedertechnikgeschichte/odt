@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import logo from '../logo.svg'
+
 import home from '../home.svg'
 import worldMap from '../worldMap.svg'
 import gallery from '../gallery.svg'

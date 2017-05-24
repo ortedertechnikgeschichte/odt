@@ -9,25 +9,30 @@ const Wrapper = styled.div`
 `
 
 const Preview = styled.img`
-  width: 40%;
+  width: 100px;
+  height: 100px;
+`
+const Icon = styled.img`
+  width: 16px;
+  height: 16px;
 `
 
 const Description = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: pink;
-  border: 1px solid gold;
-  box-shadow: 2px 2px 5px orange;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 2px 2px 5px white;
 `
 
 export default class InfowWindow extends Component {
   render () {
-    const {description, lat, lng, preview} = this.props
+    const {description, preview, icon} = this.props
     return <Wrapper>
       {preview && <Preview src={preview} />}
       <Description>
-        <span>{`${description} this awesome shit is at lat ${lat} lng ${lng}`}</span>
+        <div>{`${description}`} {icon && <Icon src={icon} />} </div>
       </Description>
     </Wrapper>
   }

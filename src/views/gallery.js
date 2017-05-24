@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import ContactForm from '../components/ContactForm'
-import gallery from '../gallery.svg'
+
 import './home.css'
 
 import { render } from 'react-dom';

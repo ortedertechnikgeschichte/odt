@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { withGoogleMap, GoogleMap, Marker, InfoWindow } from "react-google-maps"
 import { default as MarkerClusterer } from 'react-google-maps/lib/addons/MarkerClusterer'
 import _ from 'lodash'
-import oldMapStyle from '../components/oldMapStyle'
+import retroMapStyle from '../components/retroMapStyle'
 import markers from '../lib/markers'
 import StyledInfoWindow from '../components/InfoWindow'
 
@@ -25,12 +25,12 @@ class InnerMaps extends Component {
       ref={this.props.onMapLoad}
       defaultZoom={5}
       defaultCenter={{lat: 41.898999, lng: 12.483780}}
-      defaultOptions={{styles: oldMapStyle}}
+      defaultOptions={{styles: retroMapStyle}}
     >
       <MarkerClusterer
         averageCenter
         enableRetinaIcons
-        gridSize={200}
+        gridSize={120}
       >{markers.map((marker, index) => <Marker
         position={marker}
         key={index}

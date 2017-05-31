@@ -23,14 +23,14 @@ class InnerMaps extends Component {
   render() {
     return <GoogleMap
       ref={this.props.onMapLoad}
-      defaultZoom={5}
+      defaultZoom={4}
       defaultCenter={{lat: 41.898999, lng: 12.483780}}
-      defaultOptions={{styles: retroMapStyle}}
+      defaultOptions={{styles: null}}
     >
       <MarkerClusterer
         averageCenter
         enableRetinaIcons
-        gridSize={120}
+        gridSize={60}
       >{markers.map((marker, index) => <Marker
         position={marker}
         key={index}

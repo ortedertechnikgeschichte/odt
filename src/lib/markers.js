@@ -12,11 +12,11 @@ export default [
     "preview": require('../assets/nemisee_thumbnail.png'),
     "icon": require('../assets/icons/tap.png')
   }, {
-    "lat": 48.274370,
-    "lng": 30.349434,
-    "description": "servus grias dadsadsi",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
+    "lat": 37.941287,
+    "lng": 12.831998,
+    "description": "Tempel von Segesta",
+    "preview": require('../assets/Sizilien/Tempel_segesta_tn.jpg'),
+    "icon": require('../assets/icons/church.png')
   }, {
     "lat": 52.274370,
     "lng": 13.349434,
@@ -36,11 +36,23 @@ export default [
     "preview": require('../assets/nemisee_thumbnail.png'),
     "icon": require('../assets/icons/tap.png')
   }, {
-    "lat": 52,
-    "lng": 11,
-    "description": "servus",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
+    "lat": 38.081662,
+    "lng": 13.292429,
+    "description": "Kreuzgang mit Blick auf Wehrturm",
+    "preview": require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+    "icon": require('../assets/icons/church.png')
+  }, {
+    "lat": 38.081368,
+    "lng": 13.292130,
+    "description": "Brunnen mit arabesquen Säulen",
+    "preview": require('../assets/Sizilien/Brunnen_tn.jpg'),
+    "icon": require('../assets/icons/church.png')
+  }, {
+    "lat": 38.081916,
+    "lng": 13.291835,
+    "description": "Bronzeportal",
+    "preview": require('../assets/Sizilien/Bronzeportal_tn.jpg'),
+    "icon": require('../assets/icons/church.png')
   }, {
     "lat": 41.71224887,
     "lng": 12.69442116,

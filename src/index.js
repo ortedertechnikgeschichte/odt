@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Gallerie from './views/gallery'
 import Home from './views/home'
 import Maps from './views/map'
+import Details from './views/details'
 import TUBerlin from './views/tuberlin'
 import Header from './components/Header'
 import Main from './components/Main'
@@ -29,6 +30,7 @@ const App = () => (
       <Main>
         <Route exact path="/" component={Home}/>
         <Route exact path="/map" component={Maps}/>
+        <Route exact path="/details" component={Details}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/tuberlin" component={TUBerlin}/>
         <Route exact path="/gallery" component={Gallerie}/>

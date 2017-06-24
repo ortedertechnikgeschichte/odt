@@ -29,4 +29,7 @@ export default () => <Footer>
   <FooterElement to='/about/'>
     About Us
   </FooterElement>
+  <FooterElement to='/details/'>
+    details
+  </FooterElement>
 </Footer>

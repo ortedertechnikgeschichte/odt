@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import galleryImages from '../lib/galleryImages.js'
+import markers from '../lib/markers.js'
 
 
 const Wrapper = styled.div`
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: radial-gradient(circle, white, grey);
   color: black;
 `
@@ -23,22 +23,22 @@ const Icon = styled.img`
   width: 16px;
   height: 16px;
 `
-
 const Description = styled.div`
-  display: block;
   align-items: left;
+  text-align: left;
   background-color: zink;
   border: 1px solid black;
-  box-shadow: 2px 2px 5px white;
 `
 
 export default class Details extends Component {
   render () {
-    const {caption, src, description} = galleryImages[0]
+    const {description, preview, Beschreibung, Erreichbarkeit} = markers[this.props.match.params.id]
     return <Wrapper>
-      <Picture src={src} />
+      <Picture src={preview} />
       <Description>
-        <div>{`${caption}`}</div>
+        <div>{description}</div>
+        <div>{Beschreibung}</div>
+        <div>{Erreichbarkeit}</div>
       </Description>
     </Wrapper>
   }

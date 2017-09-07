@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const Wrapper = styled.div`
   display: flex;
@@ -29,9 +30,11 @@ const Description = styled.div`
 
 export default class InfowWindow extends Component {
   render () {
-    const {description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
+    const {index, description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
     return <Wrapper>
-      {preview && <Preview src={preview} />}
+      {preview && <Link to={`/details/${index}`}>
+        <Preview src={preview} />
+      </Link>}
       <Description>
         <div>{`${description}`} {icon && <Icon src={icon} />}
           <ul>

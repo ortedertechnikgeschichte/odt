@@ -39,7 +39,7 @@ class InnerMaps extends Component {
         {(this.state.active === index) && <InfoWindow
           onCloseClick={this.deactivateMarkerWindow}
         >
-          <StyledInfoWindow {...marker} />
+          <StyledInfoWindow index={index} {...marker} />
         </InfoWindow>}
       </Marker>)}</MarkerClusterer>
     </GoogleMap>

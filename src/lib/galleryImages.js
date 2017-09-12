@@ -1,7 +1,7 @@
 export default [
       {
         src: require('../assets/Sizilien/Bronzeportal.jpg'),
-        thumbnail: require('../assets/Sizilien/Bronzeportal_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Bronzeportal.jpg'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -9,7 +9,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Brunnen.JPG'),
-        thumbnail: require('../assets/Sizilien/Brunnen_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Brunnen.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -17,7 +17,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -25,7 +25,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kapitell.JPG'),
-        thumbnail: require('../assets/Sizilien/Kapitell_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kapitell.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -33,7 +33,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Tempel_segesta.JPG'),
-        thumbnail: require('../assets/Sizilien/Tempel_segesta_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Tempel_segesta.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -41,7 +41,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -49,7 +49,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -57,7 +57,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -65,7 +65,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -73,7 +73,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
@@ -81,7 +81,7 @@ export default [
       },
       {
         src: require('../assets/Sizilien/Kreuzgang.JPG'),
-        thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+        thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
         tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],

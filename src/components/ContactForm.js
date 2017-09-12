@@ -19,7 +19,7 @@ export default class ContactForm extends Component {
     _subject: '',
     email: '',
     message: '',
-    submit: 'Submit',
+    submit: 'Abschicken',
     errors: {}
   }
 
@@ -57,20 +57,11 @@ export default class ContactForm extends Component {
       disabled={this.hasErrors()}
       onSubmit={this.onSubmit}
       submit={this.state.submit}
-      trackingId='Submit contact form'
     >
-      <LineInput
-        error={this.state.errors._subject}
-        name='_subject'
-        placeholder='Reason for contact'
-        value={this.state._subject}
-        onChange={this.onChange}
-        required
-      />
       <LineInput
         error={this.state.errors.email}
         name='email'
-        placeholder='Your email'
+        placeholder='Deine Email'
         value={this.state.email}
         onChange={this.onChange}
         required
@@ -78,7 +69,7 @@ export default class ContactForm extends Component {
       <LineTextarea
         error={this.state.errors.message}
         name='message'
-        placeholder='Your message'
+        placeholder='Deine Nachricht'
         value={this.state.message}
         onChange={this.onChange}
         required

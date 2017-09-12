@@ -1,20 +1,24 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+  align-content: center;
 `
 
 const Preview = styled.img`
   width: 100px;
   height: 100px;
+  margin: auto;
 `
 const Icon = styled.img`
   width: 16px;
   height: 16px;
+  align-self: flex-end;
 `
 
 const Description = styled.div`
@@ -29,9 +33,11 @@ const Description = styled.div`
 
 export default class InfowWindow extends Component {
   render () {
-    const {description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
+    const {index, description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
     return <Wrapper>
-      {preview && <Preview src={preview} />}
+      {preview && <Link to={`/details/${index}`}>
+        <Preview src={preview} />
+      </Link>}
       <Description>
         <div>{`${description}`} {icon && <Icon src={icon} />}
           <ul>

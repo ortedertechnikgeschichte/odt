@@ -10,6 +10,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import About from './views/about'
+import Impressum from './views/impressum'
 import './index.css'
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ const App = () => (
         <Route exact path="/about" component={About}/>
         <Route exact path="/tuberlin" component={TUBerlin}/>
         <Route exact path="/gallery" component={Gallerie}/>
+        <Route exact path="/impressum" component={Impressum}/>
       </Main>
       <Footer />
     </Wrapper>

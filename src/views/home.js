@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle, white, grey);
+  background: linear-gradient(top, white, grey);
   color: black;
 `
 

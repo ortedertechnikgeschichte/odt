@@ -7,7 +7,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/example.jpg'),
+    "preview": require('../assets/Sizilien/Kreuzgang.JPG'),
     "icon": require('../assets/icons/tap.png'),
   }, {
     "lat": 50.274370,
@@ -27,7 +27,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Tempel_segesta_tn.jpg'),
+    "preview": require('../assets/Sizilien/Tempel_segesta.JPG'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 52.274370,
@@ -47,7 +47,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Kapitell_tn.jpg'),
+    "preview": require('../assets/Sizilien/Kapitell.JPG'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 52.274370,
@@ -67,7 +67,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Kreuzgang_tn.jpg'),
+    "preview": require('../assets/Sizilien/Kreuzgang.JPG'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 38.081368,
@@ -77,7 +77,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Brunnen_tn.jpg'),
+    "preview": require('../assets/Sizilien/Brunnen.JPG'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 38.081916,
@@ -87,7 +87,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Bronzeportal_tn.jpg'),
+    "preview": require('../assets/Sizilien/Bronzeportal.jpg'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 41.71224887,
@@ -107,7 +107,7 @@ export default [
     "Beschreibung": "blablablalbal",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur: Vitruv: Über die Baukunst. De architectura, Erich Stürzenacker (Hg.), Essen, 1938.; Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 2003.",
-    "preview": require('../assets/pics/Sizilien/Kapitell_tn.jpg'),
+    "preview": require('../assets/pics/Sizilien/Kapitell.JPG'),
     "icon": require('../assets/icons/church.png')
   }, {
     "lat": 41.71224887,
@@ -124,7 +124,7 @@ export default [
     "lng": 12.55399734,
     "description": "Park der Aquädukte",
     "ZeitVolkBautyp": "38 n. Chr. begonnen und 52 n. Chr. fertiggestellt, Römer, Profanbau",
-    "Beschreibung": "Parco degli Acquedotti / Parco dei 7 Acquedotti, u.a. folgende Teilabschnitte der Aquädukte: Arkaden der Aquädukte Aqua Claudia, Anio Novus und Acqua Felice; Teil des Regionalparks Via Appia Antica",
+    "Beschreibung": "Parco degli Acquedotti / Parco dei 7 Acquedotti, u.a. folgende Teilabschnitte der Aquädukte: Arkaden der Aquädukte Aqua Claudia, Anio Novus und Acqua Felice; / Teil des Regionalparks Via Appia Antica",
     "Erreichbarkeit": "Weblink: http://www.parcoacquedotti.it",
     "Literatur": "Literatur",
     "preview": require('../assets/pics/Latium/SAM_6272.JPG'),

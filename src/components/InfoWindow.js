@@ -6,16 +6,19 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+  align-content: center;
 `
 
 const Preview = styled.img`
   width: 100px;
   height: 100px;
+  margin: auto;
 `
 const Icon = styled.img`
   width: 16px;
   height: 16px;
+  align-self: flex-end;
 `
 
 const Description = styled.div`

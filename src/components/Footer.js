@@ -16,8 +16,11 @@ const FooterElement = styled(Link)`
   flex: 1
   display: inline-block
   padding: 1rem
+  font-weight: bold;
+  font-family: 'Helvetica Neue', sans-serif;
   text-decoration: none
   color: black
+  background-color: grey
   z-index: 100
 
 `
@@ -27,9 +30,9 @@ export default () => <Footer>
     <img src={tuberlin}/>
   </FooterElement>
   <FooterElement to='/about/'>
-    About Us
+    <h4>About Us</h4>
   </FooterElement>
-  <FooterElement to='/details/'>
-    details
+  <FooterElement to='/impressum/'>
+    <h4>Impressum</h4>
   </FooterElement>
 </Footer>

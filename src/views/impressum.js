@@ -67,9 +67,9 @@ class Impressum extends Component {
             Straße des 17. Juni 135<br/>
             10623 Berlin<br/>
             Telefon: +49 (0) 30 314 24068<br/>
-            E-Mail: t.costea@campus.tu-berlin.de<br/>
+            E-Mail: <a href="mailto:t.costea@campus.tu-berlin.de">t.costea@campus.tu-berlin.de</a> <br/>
             Besucheradresse: TU-Hauptgebäude, Raum H 2049<br/>
-            Impressum der TU Berlin http://www.philosophie.tu-berlin.de/servicemenue/impressum/
+            <a href="http://www.philosophie.tu-berlin.de/servicemenue/impressum/">Impressum der TU Berlin</a>
           </Address>
         </div>
       </Wrapper>

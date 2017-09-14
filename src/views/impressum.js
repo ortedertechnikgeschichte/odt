@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import about from '../about.svg'
 import './home.css'
+import tuberlin from '../tuberlin.svg'
 
 const Wrapper = styled.div`
   flex: 1;
@@ -13,20 +14,20 @@ const Wrapper = styled.div`
   color: black;
 `
 const Heading = styled. div`
-  display: block;
+  display: flex;
   padding: 1rem;
-  max-width: 600px;
+  max-width: 605px;
   margin: auto;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.5;
   text-align: left;
 `
 
 const Team = styled. div`
-  display: block;
+  display: flex;
   max-width: 600px;
   margin: auto;
   text-align: left;
@@ -37,7 +38,8 @@ const Team = styled. div`
 
 `
 const Address = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
   margin: auto;
   align-items: left;
@@ -51,12 +53,14 @@ class Impressum extends Component {
   render() {
     return (
       <Wrapper>
-        <img src={about} className="App-logo" alt="logo" />
-        <h2>Impressum</h2>
+        <img src={tuberlin} className="App-logo" alt="logo" />
+        <div className="App-logo" alt="logo">
+          <h2>Impressum</h2>
+        </div>
         <div>
           <Heading>
             TU Berlin Fakultät I
-            Institut für Philosophie, Literatur-, Wissenschafts- und Technikgeschichte
+            Institut für Philosophie, Literatur-, Wissenschafts- und Technikgeschichte <br/>
             Fachgebiet Technikgeschichte
           </Heading>
           <Team>

@@ -24,7 +24,9 @@ class About extends Component {
     return (
       <Wrapper>
         <img src={about} className="App-logo" alt="logo" />
-        <h2>About Us</h2>
+        <div className="App-logo" alt="logo">
+          <h2>About Us</h2>
+        </div>
             Dies ist ein Projekt des Fachbereichs Technikgeschichte der TU Berlin
             <WrapperElement>
               lol

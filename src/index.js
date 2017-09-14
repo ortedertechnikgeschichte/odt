@@ -5,7 +5,6 @@ import Gallerie from './views/gallery'
 import Home from './views/home'
 import Maps from './views/map'
 import Details from './views/details'
-import TUBerlin from './views/tuberlin'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
@@ -33,7 +32,6 @@ const App = () => (
         <Route exact path="/map" component={Maps}/>
         <Route exact path="/details/:id" component={Details}/>
         <Route exact path="/about" component={About}/>
-        <Route exact path="/tuberlin" component={TUBerlin}/>
         <Route exact path="/gallery" component={Gallerie}/>
         <Route exact path="/impressum" component={Impressum}/>
       </Main>

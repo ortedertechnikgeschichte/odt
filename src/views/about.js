@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import ContactForm from '../components/ContactForm'
 import about from '../about.svg'
 import './home.css'
 
@@ -25,10 +24,12 @@ class About extends Component {
     return (
       <Wrapper>
         <img src={about} className="App-logo" alt="logo" />
-        <h2>About Us</h2>
+        <div className="App-logo" alt="logo">
+          <h2>About Us</h2>
+        </div>
             Dies ist ein Projekt des Fachbereichs Technikgeschichte der TU Berlin
             <WrapperElement>
-              <ContactForm/>
+              lol
             </WrapperElement>
       </Wrapper>
     )

@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import about from '../about.svg'
-import tuberlin from '../tuberlin.svg'
+
 
 const Footer = styled.footer`
   display: flex;
@@ -26,9 +26,6 @@ const FooterElement = styled(Link)`
 `
 
 export default () => <Footer>
-  <FooterElement to='/tuberlin/'>
-    <img src={tuberlin}/>
-  </FooterElement>
   <FooterElement to='/about/'>
     <h4>About Us</h4>
   </FooterElement>

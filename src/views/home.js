@@ -19,8 +19,10 @@ class Home extends Component {
     return (
       <Wrapper>
         <img src={logo} className="App-logo" alt="logo" />
-        <h3>Orte der Technikgeschichte</h3>
-            Ein Projekt des Fachbereichs Technikgeschichte der TU Berlin
+        <div className="App-logo" alt="logo">
+          <h3>Orte der Technikgeschichte</h3>
+              Ein Projekt des Fachbereichs Technikgeschichte der TU Berlin
+        </div>
       </Wrapper>
     )
   }

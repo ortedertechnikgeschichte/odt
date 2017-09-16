@@ -64,7 +64,7 @@ class Impressum extends Component {
             Fachgebiet Technikgeschichte
           </Heading>
           <Team>
-            Team: Lorenz Burger, Sebastian Gießel, Melanie Göritz, Franzi ..., Franz Hildebrandt
+            Team: Lorenz Burger, Sebastian Gießel, Melanie Göritz, Franzi Analranzi, Franz Hildebrandt
           </Team>
           <Address>
             Sekr. H 67<br/>

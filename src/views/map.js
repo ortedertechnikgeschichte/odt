@@ -1,11 +1,18 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 import { withGoogleMap, GoogleMap, Marker, InfoWindow } from "react-google-maps"
 import { default as MarkerClusterer } from 'react-google-maps/lib/addons/MarkerClusterer'
 import _ from 'lodash'
 import retroMapStyle from '../components/retroMapStyle'
+import silverMapStyle from '../components/silverMapStyle'
+import oldMapStyle from '../components/oldMapStyle'
+import aubergineMapStyle from '../components/aubergineMapStyle'
+import daveMapStyle from '../components/daveMapStyle'
 import markers from '../lib/markers'
 import StyledInfoWindow from '../components/InfoWindow'
+
+
 
 class InnerMaps extends Component {
   state = {
@@ -25,7 +32,7 @@ class InnerMaps extends Component {
       ref={this.props.onMapLoad}
       defaultZoom={4}
       defaultCenter={{lat: 41.898999, lng: 12.483780}}
-      defaultOptions={{styles: null}}
+      defaultOptions={{styles: silverMapStyle}}
     >
       <MarkerClusterer
         averageCenter

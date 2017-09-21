@@ -14,6 +14,9 @@ const Preview = styled.img`
   width: 100px;
   height: 100px;
   margin: auto;
+  &:hover {
+    opacity: 0.8;
+  }
 `
 const Icon = styled.img`
   width: 16px;

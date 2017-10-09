@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
+import templeGPS from '../templeGPS.svg'
 import logo from '../logo.svg'
 import './home.css'
 
@@ -18,10 +19,10 @@ class Home extends Component {
   render() {
     return (
       <Wrapper>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={templeGPS} className="App-logo" alt="logo" width="100"/>
         <div className="App-logo" alt="logo">
-          <h3>Orte der Technikgeschichte</h3>
-              Ein Projekt des Fachbereichs Technikgeschichte der TU Berlin
+          <h2>Orte der Technikgeschichte</h2>
+          <h3>Ein Projekt des Fachbereichs Technikgeschichte der TU Berlin</h3>
         </div>
       </Wrapper>
     )

@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  background-color: white;
 `
 
 const Preview = styled.img`
@@ -37,7 +38,7 @@ const Description = styled.div`
 export default class InfowWindow extends Component {
   render () {
     const {index, description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
-    return <Wrapper>
+    return<Wrapper>
       {preview && <Link to={`/details/${index}`}>
         <Preview src={preview} />
       </Link>}

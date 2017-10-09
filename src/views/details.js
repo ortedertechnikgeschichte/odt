@@ -34,10 +34,10 @@ const LogoGPS = styled.img`
 const LocationGPS = styled. div`
   display: flex;
   text-align: center;
-  
+
   border-bottom: solid grey 1px;
   padding: 1rem;
-  font-size: 75%;
+  font-size: 100%;
 
 `
 const Description = styled.div`
@@ -48,7 +48,7 @@ const Description = styled.div`
   white-space: normal;
   padding: 1rem;
   margin: auto;
-  font-size: 75%;
+  font-size: 100%;
   border-bottom: solid grey 1px;
 `
 

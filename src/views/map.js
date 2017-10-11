@@ -30,7 +30,7 @@ class InnerMaps extends Component {
   render() {
     return <GoogleMap
       ref={this.props.onMapLoad}
-      defaultZoom={4}
+      defaultZoom={5}
       defaultCenter={{lat: 41.898999, lng: 12.483780}}
       defaultOptions={{styles: silverMapStyle}}
     >

@@ -30,8 +30,8 @@ class InnerMaps extends Component {
   render() {
     return <GoogleMap
       ref={this.props.onMapLoad}
-      defaultZoom={5}
-      defaultCenter={{lat: 41.898999, lng: 12.483780}}
+      defaultZoom={6}
+      defaultCenter={{lat: 39.080959, lng: 17.129329}}
       defaultOptions={{styles: silverMapStyle}}
     >
       <MarkerClusterer

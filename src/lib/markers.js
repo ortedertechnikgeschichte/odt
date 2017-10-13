@@ -1,25 +1,6 @@
 export default [
-  {
-    "lat": 47.274370,
-    "lng": 11.349434,
-    "description": "TestLocation",
-    "ZeitVolkBautyp": "lang lang vor unserer Zeit, Normannen, Sakralbau",
-    "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Erreichbarkeit": "Wo, Wann offen",
-    "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Kreuzgang.JPG'),
-    "icon": require('../assets/icons/tap.png'),
-  }, {
-    "lat": 50.274370,
-    "lng": 11.349434,
-    "description": "TestLocation",
-    "ZeitVolkBautyp": "lang lang vor unserer Zeit, Normannen, Sakralbau",
-    "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Erreichbarkeit": "Wo, Wann offen",
-    "Literatur": "Literatur",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
-  }, {
+ {
+    src: require('../assets/Sizilien/Tempel_segesta.JPG'),
     "lat": 37.941287,
     "lng": 12.831998,
     "description": "Tempel von Segesta",
@@ -27,19 +8,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Tempel_segesta.JPG'),
-    "icon": require('../assets/icons/church.png')
   }, {
-    "lat": 52.274370,
-    "lng": 13.349434,
-    "description": "TestLocation",
-    "ZeitVolkBautyp": "lang lang vor unserer Zeit, Normannen, Sakralbau",
-    "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Erreichbarkeit": "Wo, Wann offen",
-    "Literatur": "Literatur",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
-  }, {
+    src: require('../assets/Sizilien/Kapitell.JPG'),
     "lat": 38.081450,
     "lng": 13.292067,
     "description": "Widmungskapitell: Wilhelm II. widmet Kloster und Kirche der heiligen Maria",
@@ -47,19 +17,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Kapitell.JPG'),
-    "icon": require('../assets/icons/church.png')
   }, {
-    "lat": 52.274370,
-    "lng": 15.349434,
-    "description": "Testlocation",
-    "ZeitVolkBautyp": "lang lang vor unserer Zeit, Normannen, Sakralbau",
-    "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Erreichbarkeit": "Wo, Wann offen",
-    "Literatur": "Literatur",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
-  }, {
+    src: require('../assets/Sizilien/Kreuzgang.JPG'),
     "lat": 38.081662,
     "lng": 13.292429,
     "description": "Kreuzgang mit Blick auf Wehrturm",
@@ -67,9 +26,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Kreuzgang.JPG'),
-    "icon": require('../assets/icons/church.png')
   }, {
+    src: require('../assets/Sizilien/Brunnen.JPG'),
     "lat": 38.081368,
     "lng": 13.292130,
     "description": "Brunnen mit arabesquen Säulen",
@@ -77,9 +35,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Brunnen.JPG'),
-    "icon": require('../assets/icons/church.png')
   }, {
+    src: require('../assets/Sizilien/Bronzeportal.jpg'),
     "lat": 38.081916,
     "lng": 13.291835,
     "description": "Bronzeportal",
@@ -87,9 +44,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/Sizilien/Bronzeportal.jpg'),
-    "icon": require('../assets/icons/church.png')
   }, {
+    src: require('../assets/nemisee_thumbnail.png'),
     "lat": 41.71224887,
     "lng": 12.69442116,
     "description": "Nemisee Entwässerungskanal",
@@ -97,9 +53,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur",
-    "preview": require('../assets/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
   },{
+    src: require('../assets/pics/Sizilien/Kapitell.JPG'),
     "lat": 38.081450,
     "lng": 13.292067,
     "description": "Widmungskapitell: Wilhelm II. widmet Kloster und Kirche der heiligen Maria",
@@ -107,9 +62,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur: Vitruv: Über die Baukunst. De architectura, Erich Stürzenacker (Hg.), Essen, 1938.; Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 2003.",
-    "preview": require('../assets/pics/Sizilien/Kapitell.JPG'),
-    "icon": require('../assets/icons/church.png')
   }, {
+    src: require('../assets/pics/Latium/nemisee_thumbnail.png'),
     "lat": 41.71224887,
     "lng": 12.69442116,
     "description": "Nemiseeentwässerungskanal",
@@ -117,9 +71,8 @@ export default [
     "Beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "Erreichbarkeit": "Wo, Wann offen",
     "Literatur": "Literatur: Vitruv: Über die Baukunst. De architectura, Erich Stürzenacker (Hg.), Essen, 1938.; Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 2003.",
-    "preview": require('../assets/pics/Latium/nemisee_thumbnail.png'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.85091321,
     "lng": 12.55399734,
     "description": "Park der Aquädukte",
@@ -127,9 +80,8 @@ export default [
     "Beschreibung": "Parco degli Acquedotti / Parco dei 7 Acquedotti, u.a. folgende Teilabschnitte der Aquädukte: Arkaden der Aquädukte Aqua Claudia, Anio Novus und Acqua Felice; / Teil des Regionalparks Via Appia Antica",
     "Erreichbarkeit": "Weblink: http://www.parcoacquedotti.it",
     "Literatur": "Literatur",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.75497325,
     "lng": 12.28943535,
     "description": "Mühlen der Bäckerei",
@@ -137,9 +89,8 @@ export default [
     "Beschreibung": "Bäckerei in Ostia Antica mit eigenen, noch gut erhaltenen Mühlen. Die Mühlen bestehen aus einem kegelförmigen Unterbau mit einem zylinderförmigen Aufsatz zwischen denen Getreide gemahlen wurde. Zum drehen des Zylinders wurde ein Holzbalken verwendet, der durch Maulesel oder Menschen betrieben wurde.",
     "Erreichbarkeit": "Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer Weblink: http://www.ostiaantica.beniculturali.it",
     "Literatur": "Literatur",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.75506983,
     "lng": 12.28805077,
     "description": "Vorratslager",
@@ -147,9 +98,8 @@ export default [
     "Beschreibung": "Das römisch Vorratslager bestand aus in den Boden eingelassenen Amphoren (dolia), die mit Öl und Wein gefüllt wurden.",
     "Erreichbarkeit": "Archäologischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
     "Literatur": "",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.75672445,
     "lng": 12.29201520,
     "description": "Unterbau der Neptun Therme",
@@ -157,9 +107,8 @@ export default [
     "Beschreibung": "Die Neptun Therme ist besonders für ihre schwarz-weiß Mosaike bekannt. Die Unterkonstruktion aus einem Hipokaustum ist bei der Neptun Therme besonders gut zu erkennen. Auch die Öfen zur Beheizung sind teilweise noch vorhanden",
     "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
     "Literatur": "",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.75665568,
     "lng": 12.29174278,
     "description": "Brunnen der Neptun Therme",
@@ -167,9 +116,8 @@ export default [
     "Beschreibung": "",
     "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
     "Literatur": "",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
   }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
     "lat": 41.75672445,
     "lng": 12.29241524,
     "description": "Latrine der Neptun Therme",
@@ -177,7 +125,77 @@ export default [
     "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
     "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
     "Literatur": "",
-    "preview": require('../assets/pics/Latium/SAM_6272.JPG'),
-    "icon": require('../assets/icons/tap.png')
+  }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
+    "lat": 41.75672445,
+    "lng": 12.29241524,
+    "description": "Latrine der Neptun Therme",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
+    "lat": 41.75672445,
+    "lng": 12.29241524,
+    "description": "Latrine der Neptun Therme",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
+    "lat": 41.75672445,
+    "lng": 12.29241524,
+    "description": "Latrine der Neptun Therme",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
+    "lat": 41.75672445,
+    "lng": 12.29241524,
+    "description": "Latrine der Neptun Therme",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/pics/Latium/SAM_6272.JPG'),
+    "lat": 41.75672445,
+    "lng": 12.29241524,
+    "description": "Latrine der Neptun Therme",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/Sizilien/latrine.JPG'),
+    "lat": 37.364638,
+    "lng": 14.335021,
+    "description": "Latrine",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/Sizilien/hypokaustenheizung2.JPG'),
+    "lat": 37.364871,
+    "lng": 14.334114,
+    "description": "Hypokaustenheizung, Unterbau",
+    "ZeitVolkBautyp": "139 n. Chr., römisch, Profanbau",
+    "Beschreibung": "Die Neptun therme verfügt über seine eigene öffentliche Latrine in der nord-westlichen Ecke der Anlage. Die Sitzbank aus Stein ist sehr gut erhalten, Die Latrine galt als Ort für Gespräche und Geschäfte.",
+    "Erreichbarkeit": "Archäoligischer Park Ostia Antica; Öffnungszeit je nach Jahreszeit: 9:00 bis 15:30 im Winter und 18:15 im Sommer; Link: ostiaantica.beniculturali.it",
+    "Literatur": "",
+  }, {
+    src: require('../assets/Sizilien/hypokaustenheizung1.JPG'),
+    "lat": 37.364977,
+    "lng": 14.333966,
+    "description": "Hypokaustenheizung, Ofen",
+    "ZeitVolkBautyp": "Spätrömische Villa urbana",
+    "Beschreibung": "Der hier sichtbare Teil des Heizungssystems der Thermen der Villa Romana del Casale, einer spätrömischen Villa urbana, zeigt einen Brennofen. Hier wurde Holz verbrannt um mit der heißen Luft den, unter dem Fußboden liegenden, Heizraum zu erwärmen. Als typisches Merkmal der römischen Baukunst ist die Rundbogenkonstruktion zu erkennen. Tatsächlich war der gesammte Brennraum mit einem Tonnengewölbe überdacht. Hinweise auf dieses Gewölbe lassen sich an den Innenwänden erkennen. Hier befinden sich Reste der holen Tonzlinder, die durch das Zusammenstecken einen Bogen spannten.",
+    "Erreichbarkeit": "Villa Romana del Casale",
+    "Literatur": "",
   }
 ]

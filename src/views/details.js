@@ -41,7 +41,7 @@ const LocationGPS = styled. div`
 
 `
 const Description = styled.div`
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   align-items: left;
   text-align: left;
@@ -64,7 +64,7 @@ const Picture = styled.img`
 
 export default class Details extends Component {
   render () {
-    const {description, preview, Beschreibung, Erreichbarkeit, lat, lng} = markers[this.props.match.params.id]
+    const {description, src, Beschreibung, Erreichbarkeit, lat, lng} = markers[this.props.match.params.id]
     return <Wrapper>
     <div>
       <Heading>
@@ -79,7 +79,7 @@ export default class Details extends Component {
       </Description>
     </div>
     <div>
-      <Picture src={preview} />
+      <Picture src={src} />
     </div>
     </Wrapper>
   }

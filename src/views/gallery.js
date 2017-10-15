@@ -2,10 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import './home.css'
 import Gallery from 'react-grid-gallery'
-import Images from '../lib/galleryImages'
-
-console.log("Images")
-console.log("Markers")
+import Images from '../lib/markers'
 
 const Wrapper = styled.div`
   flex: 1;

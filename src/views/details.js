@@ -51,7 +51,16 @@ const Description = styled.div`
   font-size: 100%;
   border-bottom: solid grey 1px;
 `
-
+const Quellen = styled.div`
+  max-width: 800px;
+  margin: auto;
+  align-items: left;
+  text-align: left;
+  white-space: normal;
+  padding: 1rem;
+  margin: auto;
+  font-size: 100%;
+`
 const Picture = styled.img`
   display: block;
   width: 400px;
@@ -64,7 +73,7 @@ const Picture = styled.img`
 
 export default class Details extends Component {
   render () {
-    const {description, src, Beschreibung, Erreichbarkeit, lat, lng} = markers[this.props.match.params.id]
+    const {description, src, Beschreibung, Erreichbarkeit, lat, lng, Literatur} = markers[this.props.match.params.id]
     return <Wrapper>
     <div>
       <Heading>
@@ -75,8 +84,9 @@ export default class Details extends Component {
       </LocationGPS>
       <Description>
         <div>{Beschreibung}</div>
-        <div>{Erreichbarkeit}</div>
+        <div><b>Erreichbarkeit:</b> <br />  {Erreichbarkeit}</div>
       </Description>
+      <Quellen><b>Literatur:</b> <br /> {Literatur}</Quellen>
     </div>
     <div>
       <Picture src={src} />

@@ -8,7 +8,6 @@ import retroMapStyle from '../components/retroMapStyle'
 import silverMapStyle from '../components/silverMapStyle'
 import oldMapStyle from '../components/oldMapStyle'
 import aubergineMapStyle from '../components/aubergineMapStyle'
-import daveMapStyle from '../components/daveMapStyle'
 import markers from '../lib/markers'
 import StyledInfoWindow from '../components/InfoWindow'
 
@@ -32,12 +31,12 @@ class InnerMaps extends Component {
       ref={this.props.onMapLoad}
       defaultZoom={6}
       defaultCenter={{lat: 39.080959, lng: 17.129329}}
-      defaultOptions={{styles: silverMapStyle}}
+      defaultOptions={{styles: null}}
     >
       <MarkerClusterer
         averageCenter
         enableRetinaIcons
-        gridSize={60}
+        gridSize={50}
       >{markers.map((marker, index) => <Marker
         position={marker}
         key={index}

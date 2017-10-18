@@ -5,13 +5,12 @@ import './home.css'
 import tuberlin from '../tuberlin.svg'
 
 const Wrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background: linear-gradient(top, white, grey);
   color: black;
+  overflow: scroll;
 `
 const Heading = styled. div`
   display: flex;

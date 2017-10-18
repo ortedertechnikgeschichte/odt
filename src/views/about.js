@@ -4,13 +4,13 @@ import about from '../about.svg'
 import './home.css'
 
 const Wrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(top, white, grey);
-  color: black;
+display: block;
+align-items: center;
+justify-content: space-evenly;
+background: linear-gradient(top, white, grey);
+color: black;
+padding: 1.5rem;
+overflow: scroll;
 `
 const WrapperElement = styled.div`
   flex-direction: column

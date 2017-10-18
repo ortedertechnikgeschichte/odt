@@ -8,26 +8,25 @@ import gallery from '../gallery.svg'
 
 const Header = styled.header`
 display: flex;
-flex: 0.1;
-align-items: center
+align-items: center;
 width: 100%;
 color: black;
 font-size: medium;
 `
 
 const HeaderElement = styled(Link)`
-flex: 1
-display: inline-block
-padding: 1rem
-text-decoration: none
-color: black
+flex: 1;
+display: inline-block;
+padding: 1rem;
+text-decoration: none;
+color: black;
 `
 const HeaderElementRight = styled(Link)`
-flex: 1
-display: inline-block
-padding: 1rem
-text-decoration: none
-color: black
+flex: 1;
+display: inline-block;
+padding: 1rem;
+text-decoration: none;
+color: black;
 `
 
 export default () => <Header>

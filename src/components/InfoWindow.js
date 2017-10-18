@@ -7,7 +7,6 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
   background-color: white;
 `
 
@@ -15,44 +14,38 @@ const Preview = styled.img`
   width: 100px;
   height: 100px;
   margin: auto;
-  &:hover {
-    opacity: 0.8;
-  }
-`
-const Icon = styled.img`
-  width: 16px;
-  height: 16px;
-  align-self: flex-end;
 `
 
 const Description = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: left;
   background-color: white;
-  border: 15px solid white;
-  box-shadow: 2px 2px 5px white;
+  padding-left: 15px;
+`
+const LinkElement = styled(Link)`
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    opacity: 0.8;
+  }
 `
 
 export default class InfowWindow extends Component {
   render () {
-    const {index, description, preview, icon, ZeitVolkBautyp, Beschreibung, Erreichbarkeit, Literatur, lat, lng} = this.props
+    const {index, description, src, Beschreibung, lat, lng} = this.props
     return<Wrapper>
-      {preview && <Link to={`/details/${index}`}>
-        <Preview src={preview} />
-      </Link>}
-      <Description>
-        <div>{`${description}`} {icon && <Icon src={icon} />}
-          <ul>
-            <li>{`${ZeitVolkBautyp}`}</li>
-            <li>{`${Beschreibung}`}</li>
-            <li>{`${Erreichbarkeit}`}</li>
-            <li>GPS: {`${lat}, ${lng}`}</li>
-            <li>{`${Literatur}`}</li>
-          </ul>
-        </div>
-      </Description>
+      {src && <LinkElement to={`/details/${index}`}>
+        <Preview src={src} />
+        <Description>
+          <div>
+              <h3>{`${description}`}</h3>
+              GPS: {`${lat}, ${lng}`}
+          </div>
+        </Description>
+      </LinkElement>}
     </Wrapper>
   }
 }

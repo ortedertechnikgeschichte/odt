@@ -2,26 +2,28 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import './home.css'
 import Gallery from 'react-grid-gallery'
-import Images from '../lib/galleryImages'
+import Images from '../lib/markers'
 
 const Wrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: linear-gradient(top, white, grey);
   color: black;
+  padding: 1.5rem;
+  overflow: scroll;
 `
 const WrapperElement = styled.div`
-
+  align-items: center;
   flex-direction: column
   align-items: center
   justify-content: center
-  color: black
+  color: black;
+  max-width: 100%;
+  overflow: scroll;
 `
 
-class Gallerie extends Component {
+export default class Gallerie extends Component {
   render() {
     return (
       <Wrapper>
@@ -33,5 +35,3 @@ class Gallerie extends Component {
     )
   }
 }
-
-export default Gallerie;

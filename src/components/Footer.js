@@ -6,7 +6,6 @@ import about from '../about.svg'
 
 const Footer = styled.footer`
   display: flex;
-  flex: 0.1;
   width: 100%;
   color: black;
   font-size: small;
@@ -22,7 +21,6 @@ const FooterElement = styled(Link)`
   color: black
   background-color: grey
   z-index: 100
-
 `
 
 export default () => <Footer>

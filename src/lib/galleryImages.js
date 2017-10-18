@@ -4,7 +4,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Bronzeportal.jpg'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Bronzeportal"
       },
       {
@@ -12,7 +11,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Brunnen.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Brunnen"
       },
       {
@@ -20,7 +18,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -28,7 +25,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kapitell.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Widmungskapitell: Wilhelm II. widmet Kloster und Kirche der heiligen Maria"
       },
       {
@@ -36,7 +32,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Tempel_segesta.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Tempel in Segesta"
       },
       {
@@ -44,7 +39,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -52,7 +46,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -60,7 +53,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -68,7 +60,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -76,7 +67,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
       {
@@ -84,7 +74,6 @@ export default [
         thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
         thumbnailWidth: null,
         thumbnailHeight: null,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
         caption: "Kreuzgang des Klosters Monreale"
       },
 ]

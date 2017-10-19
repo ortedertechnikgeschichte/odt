@@ -73,7 +73,7 @@ class Impressum extends Component {
             E-Mail: <a href="mailto:t.costea@campus.tu-berlin.de">t.costea@campus.tu-berlin.de</a> <br/>
             Besucheradresse: TU-Hauptgebäude, Raum H 2049<br/>
             <a href="http://www.philosophie.tu-berlin.de/servicemenue/impressum/">Impressum der TU Berlin</a> <br/><br/>
-            © Alle Texte, Fotos, sowie Design sind Urheberrechtlich geschützt und dürfen nicht ohne Zustimmung des Urhebers Lorenz Burger verwendet werden.
+            © Alle Texte, Fotos, sowie Design sind Urheberrechtlich geschützt und dürfen nicht ohne Zustimmung der Urheber verwendet werden.
           </Address>
         </div>
       </Wrapper>

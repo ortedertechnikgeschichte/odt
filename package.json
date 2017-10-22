@@ -27,5 +27,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://lorenzburger.github.io/OrteDerTechnikgeschichte",
+  "homepage": "https://lorenzburger.github.io/OrteDerTechnikgeschichte"
 }

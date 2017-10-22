@@ -10,6 +10,7 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import About from './views/about'
 import Impressum from './views/impressum'
+import Password from './views/password'
 import './index.css'
 import {
   BrowserRouter as Router,
@@ -28,7 +29,8 @@ const App = () => (
     <Wrapper>
       <Header />
       <Main>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={Password}/>
+        <Route exact path="/home" component={Home}/>
         <Route exact path="/map" component={Maps}/>
         <Route exact path="/details/:id" component={Details}/>
         <Route exact path="/about" component={About}/>

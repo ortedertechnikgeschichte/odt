@@ -13,7 +13,6 @@ width: 100%;
 color: black;
 font-size: medium;
 `
-
 const HeaderElement = styled(Link)`
 flex: 1;
 display: inline-block;

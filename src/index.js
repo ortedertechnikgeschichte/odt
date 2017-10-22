@@ -12,10 +12,7 @@ import About from './views/about'
 import Impressum from './views/impressum'
 import Password from './views/password'
 import './index.css'
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
 const Wrapper = styled.div`
   height: 100%;

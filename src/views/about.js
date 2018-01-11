@@ -4,25 +4,23 @@ import about from '../about.svg'
 import './home.css'
 
 const Wrapper = styled.div`
-display: block;
-align-items: center;
-justify-content: space-evenly;
-background: linear-gradient(top, white, grey);
-color: black;
-padding: 1.5rem;
-overflow: scroll;
+  display: block;
+  background: linear-gradient(top, white, grey);
+  color: black;
+  padding-top: 4em;
+  overflow: scroll;
 `
 const WrapperElement = styled.div`
-  flex-direction: column
-  align-items: center
-  justify-content: center
-  color: black
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
 `
 
 const Einleitung = styled.text`
   display: block;
-  text-align: justify;
-  max-width: 800px;
+  text-align: left;
+  max-width: 600px;
 `
 
 class About extends Component {

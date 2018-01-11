@@ -31,7 +31,7 @@ class InnerMaps extends Component {
       ref={this.props.onMapLoad}
       defaultZoom={6}
       defaultCenter={{lat: 39.080959, lng: 17.129329}}
-      defaultOptions={{styles: null}}
+      defaultOptions={{styles: silverMapStyle}}
     >
       <MarkerClusterer
         averageCenter

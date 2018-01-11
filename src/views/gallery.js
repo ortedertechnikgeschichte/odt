@@ -7,7 +7,7 @@ import Images from '../lib/markers'
 
 const Wrapper = styled.div`
   display: block;
-  max-width: 800px;
+  max-width: 1200px;
   background: linear-gradient(top, white, grey);
   color: black;
   padding: 1.5rem;

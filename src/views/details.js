@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   display: block;
   align-items: center;
   justify-content: space-evenly;
-  background: linear-gradient(top, white, grey);
+  background: white;
   color: black;
   overflow: scroll;
 
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background: linear-gradient(top, white, grey);
+  background: white;
   color: black;
   padding: 1rem;
   overflow: scroll;

@@ -10,7 +10,7 @@ import MadeInBerlin from '../components/madeInBerlin'
 const Wrapper = styled.div`
   display: block;
   padding-top: 4em;
-  background: linear-gradient(top, white, grey);
+  background: white;
   color: black;
   overflow: scroll;
 `

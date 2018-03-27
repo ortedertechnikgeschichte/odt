@@ -12,15 +12,15 @@ const Footer = styled.footer`
 `
 
 const FooterElement = styled(Link)`
-  flex: 1
-  display: inline-block
-  padding: 1rem
+  flex: 1;
+  display: inline-block;
+  padding: 1rem;
   font-weight: bold;
   font-family: 'Helvetica Neue', sans-serif;
-  text-decoration: none
-  color: black
-  background-color: grey
-  z-index: 100
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  z-index: 100;
 `
 
 export default () => <Footer>

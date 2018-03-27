@@ -5,7 +5,7 @@ import './home.css'
 
 const Wrapper = styled.div`
   display: block;
-  background: linear-gradient(top, white, grey);
+  background: white;
   color: black;
   padding-top: 4em;
   overflow: scroll;

@@ -6,9 +6,8 @@ import Gallery from 'react-grid-gallery'
 import Images from '../lib/markers'
 
 const Wrapper = styled.div`
-  display: block;
   max-width: 1200px;
-  background: linear-gradient(top, white, grey);
+  background: white;
   color: black;
   padding: 1.5rem;
   overflow: scroll;
@@ -25,7 +24,7 @@ export default class Gallerie extends Component {
       <Wrapper>
           <WrapperElement>
             <h3>Gallerie</h3>
-            <Gallery images={Images}/>
+            <Gallery images={Images} />
           </WrapperElement>
       </Wrapper>
     )

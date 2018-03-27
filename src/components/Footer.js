@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
-import about from '../about.svg'
-
 
 const Footer = styled.footer`
   display: flex;

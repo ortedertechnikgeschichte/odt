@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import about from '../about.svg'
 import './home.css'
 import tuberlin from '../tuberlin.svg'
 import MadeInBerlin from '../components/madeInBerlin'
-
 
 const Wrapper = styled.div`
   display: block;
@@ -14,7 +12,7 @@ const Wrapper = styled.div`
   color: black;
   overflow: scroll;
 `
-const Heading = styled. div`
+const Heading = styled.div`
   display: flex;
   padding: 1rem;
   max-width: 605px;
@@ -27,7 +25,7 @@ const Heading = styled. div`
   text-align: left;
 `
 
-const Team = styled. div`
+const Team = styled.div`
   display: flex;
   max-width: 600px;
   margin: auto;
@@ -83,4 +81,4 @@ class Impressum extends Component {
   }
 }
 
-export default Impressum;
+export default Impressum

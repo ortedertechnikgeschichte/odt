@@ -23,7 +23,7 @@ const Wrapper = styled.div`
   overflow: scroll;
 }
 `
-const Heading = styled. div`
+const Heading = styled.div`
   display: block;
   border-bottom: solid black 1px;
   padding: 1rem;
@@ -39,7 +39,7 @@ const LogoGPS = styled.img`
   width: 20px;
   height: 20px;
 `
-const LocationGPS = styled. div`
+const LocationGPS = styled.div`
   display: flex;
   text-align: center;
   border-bottom: solid grey 1px;

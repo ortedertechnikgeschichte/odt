@@ -14,8 +14,8 @@ const Wrapper = styled.div`
   color: black;
 `
 const HomeElement = styled(Link)`
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 `
 
 class Home extends Component {

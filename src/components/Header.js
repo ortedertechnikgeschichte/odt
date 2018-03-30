@@ -31,7 +31,7 @@ color: black;
 `
 
 export default () => <Header>
-  <HeaderElement to='/'>
+  <HeaderElement to='/odt'>
     <img src={home} alt='home'/>
   </HeaderElement>
   <HeaderElementRight to='/map'>

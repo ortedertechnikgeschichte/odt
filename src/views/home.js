@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 import templeGPS from '../templeGPS.svg'
-import './home.css'
 
 const Wrapper = styled.div`
   flex: 1;
@@ -15,8 +14,8 @@ const Wrapper = styled.div`
   color: black;
 `
 const HomeElement = styled(Link)`
-text-decoration: none
-color: black
+text-decoration: none;
+color: black;
 `
 
 class Home extends Component {
@@ -35,4 +34,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Home

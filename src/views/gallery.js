@@ -10,11 +10,11 @@ const Wrapper = styled.div`
   color: black;
   padding: 1.5rem;
   overflow: scroll;
+  overflow-scrolling: touch;
 `
 const WrapperElement = styled.div`
   color: black;
   max-width: 100%;
-  overflow: scroll;
 `
 
 export default class Gallerie extends Component {

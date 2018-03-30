@@ -28,7 +28,7 @@ const App = () => (
     <Wrapper>
       <Header />
       <Main>
-        <Route exact path="/odt" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route exact path="/map" component={Maps}/>
         <Route exact path="/details/:id" component={Details}/>
         <Route exact path="/about" component={About}/>

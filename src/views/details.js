@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   color: black;
   padding: 1rem;
   overflow: scroll;
+  overflow-scrolling: touch;
 }
 `
 const Heading = styled.div`

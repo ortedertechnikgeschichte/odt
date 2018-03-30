@@ -5,5 +5,5 @@ export default styled.div`
   flex: 1;
   flex-direction: row;
   justify-content: space-around;
-  background: linear-gradient(top, white, grey);
+  background: white;
 `

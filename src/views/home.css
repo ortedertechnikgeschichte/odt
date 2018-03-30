@@ -2,15 +2,6 @@
   animation: fadein 3s;
 }
 
-/*)"@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-8px);
-  }
-} */
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

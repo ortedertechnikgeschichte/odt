@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import about from '../about.svg'
+
 import './home.css'
 import tuberlin from '../tuberlin.svg'
+import MadeInBerlin from '../components/madeInBerlin'
 
 const Wrapper = styled.div`
   display: block;
-  align-items: center;
-  justify-content: space-evenly;
-  background: linear-gradient(top, white, grey);
+  padding-top: 4em;
+  background: white;
   color: black;
   overflow: scroll;
 `
-const Heading = styled. div`
+const Heading = styled.div`
   display: flex;
   padding: 1rem;
   max-width: 605px;
@@ -25,16 +25,15 @@ const Heading = styled. div`
   text-align: left;
 `
 
-const Team = styled. div`
+const Team = styled.div`
   display: flex;
   max-width: 600px;
   margin: auto;
   text-align: left;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 75%;
   padding: 1rem;
   border-bottom: solid grey 1px;
-
 `
 const Address = styled.div`
   display: flex;
@@ -75,10 +74,11 @@ class Impressum extends Component {
             <a href="http://www.philosophie.tu-berlin.de/servicemenue/impressum/">Impressum der TU Berlin</a> <br/><br/>
             © Alle Texte, Fotos, sowie Design sind Urheberrechtlich geschützt und dürfen nicht ohne Zustimmung der Urheber verwendet werden.
           </Address>
+          <MadeInBerlin />
         </div>
       </Wrapper>
     )
   }
 }
 
-export default Impressum;
+export default Impressum

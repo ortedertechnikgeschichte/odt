@@ -21,6 +21,7 @@ padding: 1rem;
 text-decoration: none;
 color: black;
 `
+
 const HeaderElementRight = styled(Link)`
 flex: 1;
 display: inline-block;
@@ -31,12 +32,12 @@ color: black;
 
 export default () => <Header>
   <HeaderElement to='/'>
-    <img src={home}/>
+    <img src={home} alt='home'/>
   </HeaderElement>
   <HeaderElementRight to='/map'>
-    <img src={worldMap}/>
+    <img src={worldMap} alt='map'/>
   </HeaderElementRight>
   <HeaderElementRight to='/gallery'>
-    <img src={gallery}/>
+    <img src={gallery} alt='gallery'/>
   </HeaderElementRight>
 </Header>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import './home.css'
 import Gallery from 'react-grid-gallery'
 import Images from '../lib/markers'
 

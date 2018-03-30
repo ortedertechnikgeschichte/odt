@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import './home.css'
 import tuberlin from '../tuberlin.svg'
 import MadeInBerlin from '../components/madeInBerlin'
 

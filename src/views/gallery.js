@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import { withRouter } from 'react-router-dom'
 
 import Gallery from 'react-grid-gallery'
 import Images from '../lib/markers'
@@ -17,15 +18,27 @@ const WrapperElement = styled.div`
   max-width: 100%;
 `
 
-export default class Gallerie extends Component {
+class Gallerie extends Component {
+  constructor(props) {
+    super(props)
+    this.handleOnClick = this.handleOnClick.bind(this)
+  }
+
+handleOnClick() {
+  const { history } = this.props
+  history.push(`details/${this.refs.gallery.state.currentImage}`)
+}
+
   render() {
     return (
       <Wrapper>
           <WrapperElement>
             <h3>Gallerie</h3>
-            <Gallery images={Images} />
+            <Gallery images={Images} ref='gallery' onClickImage={this.handleOnClick}/>
           </WrapperElement>
       </Wrapper>
     )
   }
 }
+
+export default withRouter(Gallerie)

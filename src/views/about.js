@@ -6,8 +6,10 @@ const Wrapper = styled.div`
   display: block;
   background: white;
   color: black;
+  margin: auto;
   padding-top: 4em;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 `
 const WrapperElement = styled.div`
   flex-direction: column;
@@ -19,7 +21,7 @@ const WrapperElement = styled.div`
 const Einleitung = styled.text`
   display: block;
   text-align: left;
-  max-width: 600px;
+  max-width: 590px;
 `
 
 class About extends Component {

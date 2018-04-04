@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   background: white;
   color: black;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 `
 const Heading = styled.div`
   display: flex;

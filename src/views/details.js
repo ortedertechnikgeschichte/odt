@@ -11,6 +11,8 @@ const Wrapper = styled.div`
   background: white;
   color: black;
   overflow: scroll;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 
 @media (min-width: 600px) {
   display: flex;
@@ -22,6 +24,7 @@ const Wrapper = styled.div`
   padding: 1rem;
   overflow: scroll;
   overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 }
 `
 const Heading = styled.div`

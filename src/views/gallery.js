@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   padding: 1.5rem;
   overflow: scroll;
   overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 `
 const WrapperElement = styled.div`
   color: black;

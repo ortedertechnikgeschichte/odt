@@ -52,7 +52,7 @@ class Impressum extends Component {
     return (
       <Wrapper>
         <img src={tuberlin} className="App-logo" alt="logo" />
-        <div className="App-logo" alt="logo">
+        <div>
           <h2>Impressum</h2>
         </div>
         <div>

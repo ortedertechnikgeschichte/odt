@@ -19,7 +19,7 @@ const WrapperElement = styled.div`
   max-width: 100%;
 `
 
-class Gallerie extends Component {
+class Galerie extends Component {
   constructor(props) {
     super(props)
     this.handleOnClick = this.handleOnClick.bind(this)
@@ -34,7 +34,7 @@ handleOnClick() {
     return (
       <Wrapper>
           <WrapperElement>
-            <h3>Gallerie</h3>
+            <h3>Galerie</h3>
             <Gallery images={Images} ref='gallery' onClickImage={this.handleOnClick}/>
           </WrapperElement>
       </Wrapper>
@@ -42,4 +42,4 @@ handleOnClick() {
   }
 }
 
-export default withRouter(Gallerie)
+export default withRouter(Galerie)

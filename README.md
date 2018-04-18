@@ -5,24 +5,22 @@ Below you will find some information on how to add new content to the project.<b
 
 ## Table of Contents
 
-- [Updating to New Releases](#updating-to-new-releases)
-- [Sending Feedback](#sending-feedback)
-- [Folder Structure](#folder-structure)
+- [Updating Content](#updating-to-new-releases)
+  - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
-- [Troubleshooting](#troubleshooting)
+- [Sending Feedback](#sending-feedback)
 - [Something Missing?](#something-missing)
 
 
+## Updating Content
 
-## Sending Feedback
+In order to update shit -> do it and don't break stuff
 
-We are always open to [your feedback](https://github.com/lorenzburger/odt/issues).
-
-## Folder Structure
+### Folder Structure
 
 After creation, your project should look like this:
 
@@ -42,22 +40,6 @@ my-app/
     index.js
     logo.svg
 ```
-
-For the project to build, **these files must exist with exact filenames**:
-
-* `public/index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
-
-You can delete or rename the other files.
-
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
-You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
-
-Only files inside `public` can be used from `public/index.html`.<br>
-Read instructions below for using assets from JavaScript and HTML.
-
-You can, however, create more top-level directories.<br>
-They will not be included in the production build so you can use them for things like documentation.
 
 ## Available Scripts
 
@@ -84,9 +66,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## Troubleshooting
+## Sending Feedback
+
+We are always open to [your feedback](https://github.com/lorenzburger/odt/issues).
+
 
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/lorenzburger/odt/issues).
-# OrteDerTechnikgeschichte
+# Orte der Technikgeschichte

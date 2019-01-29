@@ -35,10 +35,10 @@ const LinkElement = styled(Link)`
 
 export default class InfowWindow extends Component {
   render () {
-    const {index, description, src, lat, lng} = this.props
+    const {index, description, src, thumbnail, lat, lng} = this.props
     return<Wrapper>
       {src && <LinkElement to={`/details/${index}`}>
-        <Preview src={src} />
+        <Preview src={thumbnail} />
         <Description>
           <div>
               <h3>{`${description}`}</h3>

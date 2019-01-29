@@ -1,7 +1,7 @@
 export default [
  {
     src: require('../assets/Sizilien/Tempel_segesta.JPG'),
-    thumbnail: require('../assets/Sizilien/Tempel_segesta.JPG'),
+    thumbnail: require('../assets/Sizilien/Tempel_segesta_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: "Tempel in Segesta",
@@ -13,7 +13,7 @@ export default [
     "Literatur": "Brigit Carnabuci: Sizilien. Griechische Tempel, römische Villen, normannische Dome und barocke Städte im Zentrum des Mittelmeeres (= DuMont Kunst-Reiseführer). 6., aktualisierte Auflage. DuMont Reiseverlag, Ostfildern 2011, ISBN 978-3-7701-4385-6.         Eva Gründel, Heinz Tomek: Sizilien. DuMont Buchverlag, Köln, 5. Auflage 2001, ISBN 3-7701-3476-1      Dieter Mertens: „Der Tempel von Segesta“ und die Dorische Tempelbaukunst des Griechischen Westens in klassischer Zeit. Verlag Philipp von Zabern, Darmstadt 1984, ISBN 3-8053-0515-X.",
   }, {
     src: require('../assets/Sizilien/Kreuzgang.JPG'),
-    thumbnail: require('../assets/Sizilien/Kreuzgang.JPG'),
+    thumbnail: require('../assets/Sizilien/Kreuzgang_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: "Kreuzgang des Klosters Monreale",
@@ -25,7 +25,7 @@ export default [
     "Literatur": "Brigit Carnabuci: Sizilien. Griechische Tempel, römische Villen, normannische Dome und barocke Städte im Zentrum des Mittelmeeres (= DuMont Kunst-Reiseführer). 6., aktualisierte Auflage. DuMont Reiseverlag, Ostfildern 2011, ISBN 978-3-7701-4385-6.",
   }, {
     src: require('../assets/Sizilien/Brunnen.JPG'),
-    thumbnail: require('../assets/Sizilien/Brunnen.JPG'),
+    thumbnail: require('../assets/Sizilien/Brunnen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: "Brunnen",
@@ -37,7 +37,7 @@ export default [
     "Literatur": "Brigit Carnabuci: Sizilien. Griechische Tempel, römische Villen, normannische Dome und barocke Städte im Zentrum des Mittelmeeres (= DuMont Kunst-Reiseführer). 6., aktualisierte Auflage. DuMont Reiseverlag, Ostfildern 2011, ISBN 978-3-7701-4385-6.",
   }, {
     src: require('../assets/Sizilien/Bronzeportal.jpg'),
-    thumbnail: require('../assets/Sizilien/Bronzeportal.jpg'),
+    thumbnail: require('../assets/Sizilien/Bronzeportal_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: "Bronzeportal",
@@ -49,7 +49,7 @@ export default [
     "Literatur": "Brigit Carnabuci: Sizilien. Griechische Tempel, römische Villen, normannische Dome und barocke Städte im Zentrum des Mittelmeeres (= DuMont Kunst-Reiseführer). 6., aktualisierte Auflage. DuMont Reiseverlag, Ostfildern 2011, ISBN 978-3-7701-4385-6.",
   }, {
     src: require('../assets/Latium/albanersee.JPG'),
-    thumbnail: require('../assets/Latium/albanersee.JPG'),
+    thumbnail: require('../assets/Latium/albanersee_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption:"Entwässerungskanal des Albaner Sees",
@@ -61,7 +61,7 @@ export default [
     "Literatur": "Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 92003. John Grey Landels: Die Technik in der antiken Welt, München, 41989.",
   },{
     src: require('../assets/Sizilien/Kapitell.JPG'),
-    thumbnail: require('../assets/Sizilien/Kapitell.JPG'),
+    thumbnail: require('../assets/Sizilien/Kapitell_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: "Widmungskapitell: Wilhelm II. widmet Kloster und Kirche der heiligen Maria",
@@ -73,7 +73,7 @@ export default [
     "Literatur": "BrigitCarnabuci: Sizilien. Griechische Tempel, römische Villen, normannische Dome und barocke Städte im Zentrum des Mittelmeeres (= DuMont Kunst-Reiseführer). 6., aktualisierte Auflage. DuMont Reiseverlag, Ostfildern 2011, ISBN 978-3-7701-4385-6.",
   }, {
     src: require('../assets/Latium/aquaPark.JPG'),
-    thumbnail: require('../assets/Latium/aquaPark.JPG'),
+    thumbnail: require('../assets/Latium/aquaPark_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Park der Aquädukte',
@@ -85,7 +85,7 @@ export default [
     "Literatur": "Sueton, Caligula 21;  Frontinus, de aquis urbis Romae ;  Helmuth Schneider, Die Wasserversorgung des Imperium Romanum",
   }, {
     src: require('../assets/Latium/villa.JPG'),
-    thumbnail: require('../assets/Latium/villa.JPG'),
+    thumbnail: require('../assets/Latium/villa_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Villa des Maxentius',
@@ -97,7 +97,7 @@ export default [
     "Literatur": "Peter Funkte/Hans-Joachim Gehrke: Geschichte der Antike, Stuttgart u.a., 22006.  Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 92003.",
   }, {
     src: require('../assets/Latium/viaappia.JPG'),
-    thumbnail: require('../assets/Latium/viaappia.JPG'),
+    thumbnail: require('../assets/Latium/viaappia_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Via Appia Antica',
@@ -109,7 +109,7 @@ export default [
     "Literatur": "Dieter Hägermann/Helmuth Schneider: Landbau und Handwerk : 750 v. Chr. bis 1000 n. Chr.. Propyläen-Technikgeschichte Bd 1, Berlin, 2003. Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 92003. Vitruv: Über die Baukunst. De architectura, Erich Stürzenacker (Hg.), Essen, 1938.",
   }, {
     src: require('../assets/Sizilien/peristyl.JPG'),
-    thumbnail: require('../assets/Sizilien/peristyl.JPG'),
+    thumbnail: require('../assets/Sizilien/peristyl_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Peristylhof',
@@ -121,7 +121,7 @@ export default [
     "Literatur": "Wilfried Koch: Baustilkunde, Bertelsmann Lexikon Institut, 2003, ISBN 3-577-10457-0",
   }, {
     src: require('../assets/Sizilien/wasserleitung_detail.JPG'),
-    thumbnail: require('../assets/Sizilien/wasserleitung_detail.JPG'),
+    thumbnail: require('../assets/Sizilien/wasserleitung_detail_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Wasserleitung',
@@ -133,7 +133,7 @@ export default [
     "Literatur": " Plinius der Ältere: Naturalis historia. Buch 35, Kapitel 46.  Vitruv: De Architectura. Buch VII, F. Sear: Roman Wall and Vault Mosaics. Heidelberg 1977.",
   }, {
     src: require('../assets/Latium/roemischesvorratslager.jpg'),
-    thumbnail: require('../assets/Latium/roemischesvorratslager.jpg'),
+    thumbnail: require('../assets/Latium/roemischesvorratslager_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Römische Vorratslager',
@@ -145,7 +145,7 @@ export default [
     "Literatur": "Alfred Heuß/Jochen Bleicken: Römische Geschichte, Paderborn u.a., 92003.,Dieter Hägermann/Helmuth Schneider: Landbau und Handwerk : 750 v. Chr. bis 1000 n. Chr.. Propyläen-Technikgeschichte Bd 1, Berlin, 2003. Helmuth Schneider: Geschichte der antiken Technik, München, 22012.",
   }, {
     src: require('../assets/Sizilien/latrine.JPG'),
-    thumbnail: require('../assets/Sizilien/latrine.JPG'),
+    thumbnail: require('../assets/Sizilien/latrine_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Latrine',
@@ -157,7 +157,7 @@ export default [
     "Literatur": "",
   }, {
     src: require('../assets/Sizilien/hypokaustenheizung2.JPG'),
-    thumbnail: require('../assets/Sizilien/hypokaustenheizung2.JPG'),
+    thumbnail: require('../assets/Sizilien/hypokaustenheizung2_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Hypokaustum - Unterbau',
@@ -169,7 +169,7 @@ export default [
     "Literatur": "Gustav Fusch: Über Hypokausten-Heizungen und mittelalterliche Heizungsanlagen. Dissertation Hannover 1910. Heinz-Otto Lamprecht: Heizung. In: Der Neue Pauly (DNP). Band 5, Metzler, Stuttgart 1998, ISBN 3-476-01475-4, Sp. 258–261. Hannes Lehar: Die römische Hypokaustheizung. Berechnungen und Überlegungen zu Leistung, Aufbau und Funktion. Shaker, Aachen 2012",
   }, {
     src: require('../assets/Sizilien/ziegelmauer.JPG'),
-    thumbnail: require('../assets/Sizilien/ziegelmauer.JPG'),
+    thumbnail: require('../assets/Sizilien/ziegelmauer_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Lehmziegelmauer',
@@ -181,7 +181,7 @@ export default [
     "Literatur": "https://www.lonelyplanet.com/italy/gela/attractions/greek-fortifications-of-capo-soprano/a/poi-sig/1024037/1003652                                            ----- http://www.sicilia-by-divino.com/gela.html",
   }, {
     src: require('../assets/Sizilien/Muehle.jpg'),
-    thumbnail: require('../assets/Sizilien/Muehle.jpg'),
+    thumbnail: require('../assets/Sizilien/Muehle_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Mühle',
@@ -193,7 +193,7 @@ export default [
     "Literatur": "http://www.amuseum.de/physik/alwaze/alwazehist.htm",
   }, {
     src: require('../assets/Sizilien/hypokaustenheizung1.JPG'),
-    thumbnail: require('../assets/Sizilien/hypokaustenheizung1.JPG'),
+    thumbnail: require('../assets/Sizilien/hypokaustenheizung1_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Hypokaustum - Ofen',
@@ -205,7 +205,7 @@ export default [
     "Literatur": "Gustav Fusch: Über Hypokausten-Heizungen und mittelalterliche Heizungsanlagen. Dissertation Hannover 1910. Heinz-Otto Lamprecht: Heizung. In: Der Neue Pauly (DNP). Band 5, Metzler, Stuttgart 1998, ISBN 3-476-01475-4, Sp. 258–261. Hannes Lehar: Die römische Hypokaustheizung. Berechnungen und Überlegungen zu Leistung, Aufbau und Funktion. Shaker, Aachen 2012,",
   }, {
     src: require('../assets/Sizilien/ziegelofen.JPG'),
-    thumbnail: require('../assets/Sizilien/ziegelofen.JPG'),
+    thumbnail: require('../assets/Sizilien/ziegelofen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Brennofen',
@@ -217,7 +217,7 @@ export default [
     "Literatur": "http://www.antike-tischkultur.de/keramikbrennofen.html",
   }, {
     src: require('../assets/Sizilien/theater.JPG'),
-    thumbnail: require('../assets/Sizilien/theater.JPG'),
+    thumbnail: require('../assets/Sizilien/theater_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Griechisches Theater',
@@ -229,7 +229,7 @@ export default [
     "Literatur": "http://griechischestheater.npage.de/bauweise.html",
   }, {
     src: require('../assets/Sizilien/griechischesbad.JPG'),
-    thumbnail: require('../assets/Sizilien/griechischesbad.JPG'),
+    thumbnail: require('../assets/Sizilien/griechischesbad_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Griechisches Bad',
@@ -241,7 +241,7 @@ export default [
     "Literatur": "Pietro Orlandini: Gela. Impianto greco di bagni pubblici presso l'ospizio, in Notizie degli scavi, 1960. Der Neue Pauly (DNP). Band 5, Metzler, Stuttgart 1998, ISBN 3-476-01475-4, Sp. 258–261.",
   }, {
     src: require('../assets/Latium/hadriankanal.png'),
-    thumbnail: require('../assets/Latium/hadriankanal.png'),
+    thumbnail: require('../assets/Latium/hadriankanal_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Kanal der Hadrians Villa',
@@ -253,7 +253,7 @@ export default [
     "Literatur": "Die statuarische Ausstattung der Villa Hadriana bei Tivoli (= Europäische Hochschulschriften. Reihe 38: Archäologie. 4). Lang, Frankfurt am Main u. a. 1983, ISBN 3-8204-7578-8 (Zugleich: Berlin, Freie Universität, Dissertation, 1980).",
   }, {
     src: require('../assets/Latium/ponte.png'),
-    thumbnail: require('../assets/Latium/ponte.png'),
+    thumbnail: require('../assets/Latium/ponte_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Ponte Lucano',
@@ -265,7 +265,7 @@ export default [
     "Literatur": "Heinz-Otto Lamprecht: Opus Caementitium. Bautechnik der Römer, Vbt Verlag Bau U. Technik, 1996",
   }, {
     src: require('../assets/Latium/viadipapa.png'),
-    thumbnail: require('../assets/Latium/viadipapa.png'),
+    thumbnail: require('../assets/Latium/viadipapa_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Via di Papa',
@@ -277,7 +277,7 @@ export default [
     "Literatur": "Heinz-Otto Lamprecht: Opus Caementitium. Bautechnik der Römer, Vbt Verlag Bau U. Technik, 1996",
   }, {
     src: require('../assets/Latium/LatrineNeptune.JPG'),
-    thumbnail: require('../assets/Latium/LatrineNeptune.JPG'),
+    thumbnail: require('../assets/Latium/LatrineNeptune_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Latrine der Neptun Therme',
@@ -289,7 +289,7 @@ export default [
     "Literatur": "Richard Neudecker: Die Pracht der Latrine – Zum Wandel öffentlicher Bedürfnisanstalten in der kaiserzeitlichen Stadt. München, 1994",
   }, {
     src: require('../assets/Latium/tubuli.JPG'),
-    thumbnail: require('../assets/Latium/tubuli.JPG'),
+    thumbnail: require('../assets/Latium/tubuli_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Unterbau der Neptun Therme',
@@ -301,7 +301,7 @@ export default [
     "Literatur": "Inge Nielsen: Thermae et balnae. The architecture and cultural history of roman public baths, Arhus, 1990",
   }, {
     src: require('../assets/Latium/Baeckerei.JPG'),
-    thumbnail: require('../assets/Latium/Baeckerei.JPG'),
+    thumbnail: require('../assets/Latium/Baeckerei_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Mühlen der Bäckerei',
@@ -313,7 +313,7 @@ export default [
     "Literatur": "",
   }, {
     src: require('../assets/Latium/tempelforum.png'),
-    thumbnail: require('../assets/Latium/tempelforum.png'),
+    thumbnail: require('../assets/Latium/tempelforum_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Tempel am Forum',
@@ -325,7 +325,7 @@ export default [
     "Literatur": "Douglas Boin: Ostia in Late Antiquity. Cambridge 2013; Anna-Katharina Rieger: Heiligtümer in Ostia. Pfeil, München, 2004",
   }, {
     src: require('../assets/Latium/mithras.JPG'),
-    thumbnail: require('../assets/Latium/mithras.JPG'),
+    thumbnail: require('../assets/Latium/mithras_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Mithrasthermen',
@@ -337,7 +337,7 @@ export default [
     "Literatur": "Werner Heinz: Römische Thermen, Badewesen und Badeluxus, München, 1983; Ulrika Kiby: Bäder und Badekultur in Orient und Okzident. Antike bis Spätbarock, Köln, 1995",
   }, {
     src: require('../assets/Latium/weisen.JPG'),
-    thumbnail: require('../assets/Latium/weisen.JPG'),
+    thumbnail: require('../assets/Latium/weisen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Therme der Sieben Weisen',
@@ -349,7 +349,7 @@ export default [
     "Literatur": "Ulrika Kiby: Bäder und Badekultur in Orient und Okzident. Antike bis Spätbarock, Köln, 1995; Marga Weber: Antike Badekultur, o.O., 1996",
   }, {
     src: require('../assets/Latium/diana.JPG'),
-    thumbnail: require('../assets/Latium/diana.JPG'),
+    thumbnail: require('../assets/Latium/diana_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Haus der Diane',
@@ -362,7 +362,7 @@ export default [
     "Literatur": "Angelo Pellegrino: Ostia antica. Führer zu den Ausgrabungen. Ed. Abete, Rom, 2000; Marion Bolder-Boos: Ostia. Der Hafen Roms. von Zabern, Darmstadt, 2014; Dirk Steuernagel: Kult und Alltag in römischen Hafenstädten. Soziale Prozesse in archäologischer Perspektive. Potsdamer altertumswissenschaftliche Beiträge. Bd 11, Steiner; Stuttgart, 2004",
   }, {
     src: require('../assets/Provence/nimes_amphi.png'),
-    thumbnail: require('../assets/Provence/nimes_amphi.png'),
+    thumbnail: require('../assets/Provence/nimes_amphi_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Amphitheater',
@@ -374,7 +374,7 @@ export default [
     "Literatur": "Heinz-Otto Lamprecht: Opus caementicium: Bautechnik der Römer, Düsseldorf 1996. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/nimes_maisoncarree.png'),
-    thumbnail: require('../assets/Provence/nimes_maisoncarree.png'),
+    thumbnail: require('../assets/Provence/nimes_maisoncarree_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Maison Carrée',
@@ -386,7 +386,7 @@ export default [
     "Literatur": "Hans Koepf: Baukunst in fünf Jahrtausenden, Stuttgart 1990. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/nimes_porteauguste.png'),
-    thumbnail: require('../assets/Provence/nimes_porteauguste.png'),
+    thumbnail: require('../assets/Provence/nimes_porteauguste_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Porte Auguste',
@@ -398,7 +398,7 @@ export default [
     "Literatur": "Dominique Darde: Nîmes antique. In: „Guides archéologiques de la France”, Centre des Monuments Nationaux, Paris 2005, S. 71.",
   }, {
     src: require('../assets/Provence/glanum_wohnhaus.png'),
-    thumbnail: require('../assets/Provence/glanum_wohnhaus.png'),
+    thumbnail: require('../assets/Provence/glanum_wohnhaus_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Wohnhäuser',
@@ -410,7 +410,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_markt.png'),
-    thumbnail: require('../assets/Provence/glanum_markt.png'),
+    thumbnail: require('../assets/Provence/glanum_markt_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Markt',
@@ -422,7 +422,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_strasse.png'),
-    thumbnail: require('../assets/Provence/glanum_strasse.png'),
+    thumbnail: require('../assets/Provence/glanum_strasse_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Straße mit unterirdischer Kanalisation',
@@ -434,7 +434,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_therme.png'),
-    thumbnail: require('../assets/Provence/glanum_therme.png'),
+    thumbnail: require('../assets/Provence/glanum_therme_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Therme',
@@ -446,7 +446,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_brunnen.png'),
-    thumbnail: require('../assets/Provence/glanum_brunnen.png'),
+    thumbnail: require('../assets/Provence/glanum_brunnen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Dromos-Brunnen',
@@ -458,7 +458,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_nymphaeum.png'),
-    thumbnail: require('../assets/Provence/glanum_nymphaeum.png'),
+    thumbnail: require('../assets/Provence/glanum_nymphaeum_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Nymphaeum ',
@@ -470,7 +470,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_weinraeucherei.png'),
-    thumbnail: require('../assets/Provence/glanum_weinraeucherei.png'),
+    thumbnail: require('../assets/Provence/glanum_weinraeucherei_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Weinräucherei',
@@ -482,7 +482,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_keltisch.png'),
-    thumbnail: require('../assets/Provence/glanum_keltisch.png'),
+    thumbnail: require('../assets/Provence/glanum_keltisch_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Keltische Wohnhäuser',
@@ -494,7 +494,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_kenotaph.png'),
-    thumbnail: require('../assets/Provence/glanum_kenotaph.png'),
+    thumbnail: require('../assets/Provence/glanum_kenotaph_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Mausoleum/Kenotaph',
@@ -506,7 +506,7 @@ export default [
     "Literatur": "Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_bogen.png'),
-    thumbnail: require('../assets/Provence/glanum_bogen.png'),
+    thumbnail: require('../assets/Provence/glanum_bogen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Ehrenbogen',
@@ -518,7 +518,7 @@ export default [
     "Literatur": "Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/glanum_strasse.png'),
-    thumbnail: require('../assets/Provence/glanum_strasse.png'),
+    thumbnail: require('../assets/Provence/glanum_strasse_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Glanum: Via Domitia mit Stützmauer',
@@ -530,7 +530,7 @@ export default [
     "Literatur": "Anne Roth-Congès: Glanum, Vom kelto-ligurischen Oppidum zur gallorömischen Stadt, Paris 2001 u. 2012. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/saint_chamas_pontflavien.png'),
-    thumbnail: require('../assets/Provence/saint_chamas_pontflavien.png'),
+    thumbnail: require('../assets/Provence/saint_chamas_pontflavien_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Saint-Chamas: Pont Flavien',
@@ -542,7 +542,7 @@ export default [
     "Literatur": "Marcel Prade: Les ponts, monuments historiques: inventaire, description, histoire des ponts et ponts-aqueducs de France, protégés au titre des monuments historiques. Poitiers 1986. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/barbegal_muehlen.png'),
-    thumbnail: require('../assets/Provence/barbegal_muehlen.png'),
+    thumbnail: require('../assets/Provence/barbegal_muehlen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Barbegal: Wassermühlen',
@@ -554,7 +554,7 @@ export default [
     "Literatur": "Robert H. J. Sellin: The large roman water mill at Barbegal. In: History of Technology, 8, 1983, Seite 91–109.",
   }, {
     src: require('../assets/Provence/arles_cryptoporticus.png'),
-    thumbnail: require('../assets/Provence/arles_cryptoporticus.png'),
+    thumbnail: require('../assets/Provence/arles_cryptoporticus_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Arles: Cryptoporticus',
@@ -566,7 +566,7 @@ export default [
     "Literatur": "Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/arles_thermen.png'),
-    thumbnail: require('../assets/Provence/arles_thermen.png'),
+    thumbnail: require('../assets/Provence/arles_thermen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Arles: Konstantinsthermen',
@@ -578,7 +578,7 @@ export default [
     "Literatur": "Erika Brödner: Die römischen Thermen und das antike Badewesen: eine kulturhistorische Betrachtung. Darmstadt 1992. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/arles_amphi.png'),
-    thumbnail: require('../assets/Provence/arles_amphi.png'),
+    thumbnail: require('../assets/Provence/arles_amphi_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Arles: Amphitheater',
@@ -590,7 +590,7 @@ export default [
     "Literatur": "Heinz-Otto Lamprecht: Opus caementicium: Bautechnik der Römer, Düsseldorf 1996. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/orange_theater.png'),
-    thumbnail: require('../assets/Provence/orange_theater.png'),
+    thumbnail: require('../assets/Provence/orange_theater_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Orange: Theater',
@@ -602,7 +602,7 @@ export default [
     "Literatur": "Augustin-Nicolas Caristie: Monuments antiques à Orange: Arc de Triomphe et Théâtre. Paris 1856. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/orange_bogen.png'),
-    thumbnail: require('../assets/Provence/orange_bogen.png'),
+    thumbnail: require('../assets/Provence/orange_bogen_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Orange: Ehrenbogen',
@@ -614,7 +614,7 @@ export default [
     "Literatur": "Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/nimes_tempel.png'),
-    thumbnail: require('../assets/Provence/nimes_tempel.png'),
+    thumbnail: require('../assets/Provence/nimes_tempel_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Tempel/Bibliothek',
@@ -626,7 +626,7 @@ export default [
     "Literatur": "Hans Koepf: Baukunst in fünf Jahrtausenden. Stuttgart 1990. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/nimes_verteiler.png'),
-    thumbnail: require('../assets/Provence/nimes_verteiler.png'),
+    thumbnail: require('../assets/Provence/nimes_verteiler_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Wasserverteiler',
@@ -638,7 +638,7 @@ export default [
     "Literatur": "Frontinus-Gesellschaft e.V. (Hrsg.): Geschichte der Wasserversorgung, Band 2, Die Wasserversorgung antiker Städte, Mainz 1991.",
   }, {
     src: require('../assets/Provence/nimes_tour.png'),
-    thumbnail: require('../assets/Provence/nimes_tour.png'),
+    thumbnail: require('../assets/Provence/nimes_tour_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Tour Magne',
@@ -650,7 +650,7 @@ export default [
     "Literatur": "Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/oppidum.png'),
-    thumbnail: require('../assets/Provence/oppidum.png'),
+    thumbnail: require('../assets/Provence/oppidum_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nages-et-Solorgues: Keltisches Oppidum',
@@ -662,7 +662,7 @@ export default [
     "Literatur": "Michel Py: L’oppidum des castels à Nages (Gard), Paris 1978.",
   }, {
     src: require('../assets/Provence/ambrussum_via.png'),
-    thumbnail: require('../assets/Provence/ambrussum_via.png'),
+    thumbnail: require('../assets/Provence/ambrussum_via_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Ambrussum: Straße',
@@ -674,7 +674,7 @@ export default [
     "Literatur": "http://www.ambrussum.com/494-the-museum.htm. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/ambrussum_pontamroix.png'),
-    thumbnail: require('../assets/Provence/ambrussum_pontamroix.png'),
+    thumbnail: require('../assets/Provence/ambrussum_pontamroix_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Ambrussum: Pont Ambroix',
@@ -686,7 +686,7 @@ export default [
     "Literatur": "Marcel Prade: Les ponts, monuments historiques: inventaire, description, histoire des ponts et ponts-aqueducs de France, protégés au titre des monuments historiques, Poitiers 1986. Raymond Chevallier: Römische Provence: Die Provinz Gallia Narbonensis, Luzern 1985.",
   }, {
     src: require('../assets/Provence/ambrussum_strassenstation.png'),
-    thumbnail: require('../assets/Provence/ambrussum_strassenstation.png'),
+    thumbnail: require('../assets/Provence/ambrussum_strassenstation_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Ambrussum: Straßenstation',
@@ -698,7 +698,7 @@ export default [
     "Literatur": "http://www.ambrussum.com/494-the-museum.htm.",
   }, {
     src: require('../assets/Provence/pontdugard.png'),
-    thumbnail: require('../assets/Provence/pontdugard.png'),
+    thumbnail: require('../assets/Provence/pontdugard_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Pont du Gard',
@@ -710,7 +710,7 @@ export default [
     "Literatur": "Frontinus-Gesellschaft e.V. (Hrsg.): Geschichte der Wasserversorgung, Band 2, Die Wasserversorgung antiker Städte, Mainz 1991.",
   }, {
     src: require('../assets/Provence/sernhac_tunnel.png'),
-    thumbnail: require('../assets/Provence/sernhac_tunnel.png'),
+    thumbnail: require('../assets/Provence/sernhac_tunnel_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Sernhac: Tunnel/Aquädukt',
@@ -722,7 +722,7 @@ export default [
     "Literatur": "Frontinus-Gesellschaft e.V. (Hrsg.): Geschichte der Wasserversorgung, Band 2, Die Wasserversorgung antiker Städte, Mainz 1991.",
   }, {
     src: require('../assets/Provence/nimes_roemermuseum.png'),
-    thumbnail: require('../assets/Provence/nimes_roemermuseum.png'),
+    thumbnail: require('../assets/Provence/nimes_roemermuseum_tn.jpg'),
     thumbnailWidth: null,
     thumbnailHeight: null,
     caption: 'Nîmes: Römermuseum',

@@ -5,10 +5,7 @@ import { withGoogleMap, GoogleMap, Marker, InfoWindow } from "react-google-maps"
 import { default as MarkerClusterer } from 'react-google-maps/lib/addons/MarkerClusterer'
 import _ from 'lodash'
 
-// import retroMapStyle from '../components/retroMapStyle'
-import silverMapStyle from '../components/silverMapStyle'
-// import oldMapStyle from '../components/oldMapStyle'
-// import aubergineMapStyle from '../components/aubergineMapStyle'
+import silverMapStyle from '../components/mapstyles/silverMapStyle'
 import markers from '../lib/markers'
 import StyledInfoWindow from '../components/InfoWindow'
 
@@ -30,8 +27,8 @@ class InnerMaps extends Component {
   render() {
     return <GoogleMap
       ref={this.props.onMapLoad}
-      defaultZoom={6}
-      defaultCenter={{lat: 39.080959, lng: 17.129329}}
+      defaultZoom={5}
+      defaultCenter={{lat: 40.080959, lng: 14.129329}}
       defaultOptions={{styles: silverMapStyle}}
     >
       <MarkerClusterer

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import about from '../about.svg'
 
 const Wrapper = styled.div`
   display: block;
@@ -28,10 +27,6 @@ class About extends Component {
   render() {
     return (
       <Wrapper>
-        <img src={about} className="App-logo" alt="logo" />
-        <div>
-          <h2>About Us</h2>
-        </div>
           <h4>Dies ist ein Projekt des Fachbereichs Technikgeschichte der TU Berlin</h4>
           <WrapperElement>
            <Einleitung>

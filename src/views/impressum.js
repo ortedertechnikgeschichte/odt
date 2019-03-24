@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import tuberlin from '../tuberlin.svg'
-import MadeInBerlin from '../components/madeInBerlin'
-
 const Wrapper = styled.div`
   display: block;
   padding-top: 4em;
@@ -51,7 +48,6 @@ class Impressum extends Component {
   render() {
     return (
       <Wrapper>
-        <img src={tuberlin} className="App-logo" alt="logo" />
         <div>
           <h2>Impressum</h2>
         </div>
@@ -74,7 +70,6 @@ class Impressum extends Component {
             <a href="http://www.philosophie.tu-berlin.de/servicemenue/impressum/">Impressum der TU Berlin</a> <br/><br/>
             © Alle Texte, Fotos, sowie Design sind Urheberrechtlich geschützt und dürfen nicht ohne Zustimmung der Urheber verwendet werden.
           </Address>
-          <MadeInBerlin />
         </div>
       </Wrapper>
     )

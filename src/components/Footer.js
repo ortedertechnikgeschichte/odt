@@ -23,7 +23,7 @@ const FooterElement = styled(Link)`
 
 export default () => <Footer>
   <FooterElement to='/about/'>
-    <h4>About Us</h4>
+    <h4>About</h4>
   </FooterElement>
   <FooterElement to='/impressum/'>
     <h4>Impressum</h4>

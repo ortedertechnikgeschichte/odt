@@ -732,5 +732,17 @@ export default [
     "Beschreibung": `Das Musée de la Romanité von Nîmes präsentiert eine interessante Dauerausstellung zur Geschichte der Provence von den keltischen Ursprüngen bis zum Ende der römischen Provinz Gallia Narbonensis. Von besonderem technikhistorischem Interesse sind vor allem die Darstellungen und Artefakte handwerklicher und anderer beruflicher Tätigkeiten aus der Römerzeit. Die Abbildung, ein Grabrelief, zeigt einen pflügenden Bauern.`,
     "Erreichbarkeit": "16 Boulevard des Arènes, 30900 Nîmes",
     "Literatur": "https://museedelaromanite.fr/en/.",
+  }, {
+    src: require('../assets/Provence/nimes_roemermuseum.png'),
+    thumbnail: require('../assets/Provence/nimes_roemermuseum_tn.jpg'),
+    thumbnailWidth: null,
+    thumbnailHeight: null,
+    caption: 'Nîmes: Römermuseum',
+    "lat": 43.833858,
+    "lng": 4.359653,
+    "description": "Nîmes: Römermuseum",
+    "Beschreibung": `Das Musée de la Romanité von Nîmes präsentiert eine interessante Dauerausstellung zur Geschichte der Provence von den keltischen Ursprüngen bis zum Ende der römischen Provinz Gallia Narbonensis. Von besonderem technikhistorischem Interesse sind vor allem die Darstellungen und Artefakte handwerklicher und anderer beruflicher Tätigkeiten aus der Römerzeit. Die Abbildung, ein Grabrelief, zeigt einen pflügenden Bauern.`,
+    "Erreichbarkeit": "16 Boulevard des Arènes, 30900 Nîmes",
+    "Literatur": "https://museedelaromanite.fr/en/.",
   }
 ]

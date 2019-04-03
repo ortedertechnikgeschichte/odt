@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Below you will find some information on how to add new content to the project.<br>
+Below you will find information on how to add new content to the project.<br>
+
+http://makethumbnails.com/#dropzone 
 
 
 ## Table of Contents
